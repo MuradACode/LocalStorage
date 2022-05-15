@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #003973;
+    background: -webkit-linear-gradient(to right, #e5e5be, #003973);
+    background: linear-gradient(to right, #e5e5be, #003973);
+
+    .cart {
+        i {
+            font-size: 2rem;
+            color: white;
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        }
+    }
+
+    .allItems {
+        height: 90vh;
+        align-items: center;
+
+        .itemCard {
+            background-color: rgb(238, 238, 238);
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+            border-radius: 0.5rem;
+
+            img {
+                border-radius: 0.5rem;
+                box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+            }
+        }
+    }
+}

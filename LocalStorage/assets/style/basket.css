@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin-top: 20px;
+  background: #eee;
+  background: #003973;
+  background: -webkit-gradient(linear, left top, right top, from(#e5e5be), to(#003973));
+  background: linear-gradient(to right, #e5e5be, #003973);
+}
+
+body .cart i {
+  font-size: 2rem;
+  color: white;
+  -webkit-box-shadow: #26394d 0px 20px 30px -10px;
+          box-shadow: #26394d 0px 20px 30px -10px;
+}
+
+.ui-w-40 {
+  width: 40px !important;
+  height: auto;
+}
+
+.card {
+  -webkit-box-shadow: 0 1px 15px 1px rgba(52, 40, 104, 0.08);
+          box-shadow: 0 1px 15px 1px rgba(52, 40, 104, 0.08);
+}
+
+.ui-product-color {
+  display: inline-block;
+  overflow: hidden;
+  margin: .144em;
+  width: .875rem;
+  height: .875rem;
+  border-radius: 10rem;
+  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
+  vertical-align: middle;
+}
+/*# sourceMappingURL=basket.css.map */

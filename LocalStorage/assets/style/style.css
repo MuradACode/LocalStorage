@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #003973;
+  background: -webkit-gradient(linear, left top, right top, from(#e5e5be), to(#003973));
+  background: linear-gradient(to right, #e5e5be, #003973);
+}
+
+body .cart i {
+  font-size: 2rem;
+  color: white;
+  -webkit-box-shadow: #26394d 0px 20px 30px -10px;
+          box-shadow: #26394d 0px 20px 30px -10px;
+}
+
+body .allItems {
+  height: 90vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .allItems .itemCard {
+  background-color: #eeeeee;
+  -webkit-box-shadow: #26394d 0px 20px 30px -10px;
+          box-shadow: #26394d 0px 20px 30px -10px;
+  border-radius: 0.5rem;
+}
+
+body .allItems .itemCard img {
+  border-radius: 0.5rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+/*# sourceMappingURL=style.css.map */
